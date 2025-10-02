@@ -9,7 +9,7 @@ import java.util.Scanner;
  * A minimalist Java application demonstrating a REST client using standard Java (HttpURLConnection).
  * This application retrieves a post (in JSON format) from the JSONPlaceholder API.
  */
-public class SimpleRestClient {
+public class Client {
 
     private static final String API_URL_BASE = "https://jsonplaceholder.typicode.com/posts/";
 
@@ -116,3 +116,4 @@ public class SimpleRestClient {
         }
     }
 }
+
